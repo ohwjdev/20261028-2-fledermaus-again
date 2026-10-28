@@ -30,15 +30,25 @@
 			]
 		},
 		{
-			"id": "i2",
-			"name": "Oboe fi",
+			"id": "i15",
+			"name": "Oboe",
 			"abbr": "",
 			"grand": false,
-			"parts": [],
+			"parts": [
+				{
+					"name": "I"
+				},
+				{
+					"name": "II"
+				}
+			],
 			"staves": [
 				{
-					"id": "i2-1",
-					"parts": []
+					"id": "i15-2",
+					"parts": [
+						0,
+						1
+					]
 				}
 			]
 		},
@@ -301,7 +311,7 @@
 					"uly": 883,
 					"lrx": 2336,
 					"lry": 951,
-					"staff": "i2-1"
+					"staff": "i15-2"
 				},
 				{
 					"ulx": 474,
