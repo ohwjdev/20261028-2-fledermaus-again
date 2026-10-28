@@ -184,14 +184,14 @@
                      </staffDef>
                      <staffGrp xml:id="i20" symbol="bracket" bar.thru="true">
                         <staffDef xml:id="i20-staff1" n="17" lines="5" clef.shape="F" clef.line="4" meter.count="2" meter.unit="2">
-                           <label xml:id="label-30">Violoncello und Kontrabass Violoncello</label>
+                           <label xml:id="label-30">Violoncello</label>
                            <instrDef xml:id="instrDef-17"/>
-                           <layerDef xml:id="layerDef-21" n="1" label="Violoncello"/>
-                           <layerDef xml:id="layerDef-22" n="2" label="Kontrabass"/>
+                           <layerDef xml:id="layerDef-21" n="1" label="Violoncello"><instrDef xml:id="instrDef-18"/></layerDef>
+                           <layerDef xml:id="layerDef-22" n="2" label="Kontrabass"><instrDef xml:id="instrDef-19"/></layerDef>
                         </staffDef>
                         <staffDef xml:id="i20-staff2" n="18" lines="5" clef.shape="F" clef.line="4" meter.count="2" meter.unit="2">
-                           <label xml:id="label-31">Violoncello und Kontrabass Kontrabass</label>
-                           <instrDef xml:id="instrDef-18"/>
+                           <label xml:id="label-31">Kontrabass</label>
+                           <instrDef xml:id="instrDef-20"/>
                            <layerDef xml:id="layerDef-23" n="2" label="Kontrabass"/>
                         </staffDef>
                      </staffGrp>

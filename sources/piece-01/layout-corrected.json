@@ -323,7 +323,8 @@
 						1
 					]
 				}
-			]
+			],
+			"partsAreInstruments": true
 		}
 	],
 	"groups": [],
