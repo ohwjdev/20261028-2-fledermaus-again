@@ -297,10 +297,12 @@
 			"grand": false,
 			"parts": [
 				{
-					"name": "Violoncello"
+					"name": "Violoncello",
+					"abbr": "Vcll."
 				},
 				{
-					"name": "Kontrabass"
+					"name": "Kontrabass",
+					"abbr": "K.-B."
 				}
 			],
 			"staves": [
