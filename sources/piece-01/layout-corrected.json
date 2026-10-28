@@ -53,47 +53,84 @@
 			]
 		},
 		{
-			"id": "i3",
-			"name": "Fagott I",
+			"id": "i16",
+			"name": "Klarinette in A",
 			"abbr": "",
 			"grand": false,
 			"parts": [
+				{
+					"name": "I"
+				},
 				{
 					"name": "II"
 				}
 			],
 			"staves": [
 				{
-					"id": "i3-1",
+					"id": "i16-2",
 					"parts": [
-						0
+						0,
+						1
 					]
 				}
 			]
 		},
 		{
-			"id": "i4",
-			"name": "I Horn ın F",
+			"id": "i17",
+			"name": "Fagott",
 			"abbr": "",
 			"grand": false,
-			"parts": [],
+			"parts": [
+				{
+					"name": "I"
+				},
+				{
+					"name": "II"
+				}
+			],
 			"staves": [
 				{
-					"id": "i4-1",
-					"parts": []
+					"id": "i17-2",
+					"parts": [
+						0,
+						1
+					]
 				}
 			]
 		},
 		{
-			"id": "i5",
-			"name": "III",
+			"id": "i18",
+			"name": "Horn in F",
 			"abbr": "",
 			"grand": false,
-			"parts": [],
+			"parts": [
+				{
+					"name": "I"
+				},
+				{
+					"name": "II"
+				},
+				{
+					"name": "III"
+				},
+				{
+					"name": "IV"
+				}
+			],
 			"staves": [
 				{
-					"id": "i5-1",
-					"parts": []
+					"id": "i18-2",
+					"parts": [
+						0,
+						1
+					]
+				},
+				{
+					"id": "i18-3",
+					"parts": [
+						2,
+						3
+					]
 				}
 			]
 		},
@@ -317,28 +354,29 @@
 					"ulx": 474,
 					"uly": 1032,
 					"lrx": 2336,
-					"lry": 1116
+					"lry": 1116,
+					"staff": "i16-2"
 				},
 				{
 					"ulx": 484,
 					"uly": 1207,
 					"lrx": 2345,
 					"lry": 1276,
-					"staff": "i3-1"
+					"staff": "i17-2"
 				},
 				{
 					"ulx": 464,
 					"uly": 1349,
 					"lrx": 2335,
 					"lry": 1424,
-					"staff": "i4-1"
+					"staff": "i18-2"
 				},
 				{
 					"ulx": 473,
 					"uly": 1477,
 					"lrx": 2335,
 					"lry": 1544,
-					"staff": "i5-1"
+					"staff": "i18-3"
 				},
 				{
 					"ulx": 473,
