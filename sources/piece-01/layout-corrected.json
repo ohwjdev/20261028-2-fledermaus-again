@@ -135,20 +135,24 @@
 			]
 		},
 		{
-			"id": "i6",
-			"name": "Trompete ın F I",
+			"id": "i19",
+			"name": "Trompete in F",
 			"abbr": "",
 			"grand": false,
 			"parts": [
+				{
+					"name": "I"
+				},
 				{
 					"name": "II"
 				}
 			],
 			"staves": [
 				{
-					"id": "i6-1",
+					"id": "i19-2",
 					"parts": [
-						0
+						0,
+						1
 					]
 				}
 			]
@@ -160,14 +164,22 @@
 			"grand": false,
 			"parts": [
 				{
+					"name": "I"
+				},
+				{
 					"name": "II"
+				},
+				{
+					"name": "III"
 				}
 			],
 			"staves": [
 				{
-					"id": "i7-1",
+					"id": "i7-2",
 					"parts": [
-						0
+						0,
+						1,
+						2
 					]
 				}
 			]
@@ -266,15 +278,30 @@
 			]
 		},
 		{
-			"id": "i14",
-			"name": "Violoncello",
+			"id": "i20",
+			"name": "Violoncello und Kontrabass",
 			"abbr": "",
 			"grand": false,
-			"parts": [],
+			"parts": [
+				{
+					"name": "Violoncello"
+				},
+				{
+					"name": "Kontrabass"
+				}
+			],
 			"staves": [
 				{
-					"id": "i14-1",
-					"parts": []
+					"id": "i20-2",
+					"parts": [
+						0
+					]
+				},
+				{
+					"id": "i20-3",
+					"parts": [
+						1
+					]
 				}
 			]
 		}
@@ -383,14 +410,14 @@
 					"uly": 1629,
 					"lrx": 2337,
 					"lry": 1701,
-					"staff": "i6-1"
+					"staff": "i19-2"
 				},
 				{
 					"ulx": 484,
 					"uly": 1791,
 					"lrx": 2337,
 					"lry": 1866,
-					"staff": "i7-1"
+					"staff": "i7-2"
 				},
 				{
 					"ulx": 478,
@@ -446,13 +473,14 @@
 					"uly": 2970,
 					"lrx": 2338,
 					"lry": 3047,
-					"staff": "i14-1"
+					"staff": "i20-2"
 				},
 				{
 					"ulx": 486,
 					"uly": 3117,
 					"lrx": 2337,
-					"lry": 3185
+					"lry": 3185,
+					"staff": "i20-3"
 				}
 			],
 			"grandstaves": []
